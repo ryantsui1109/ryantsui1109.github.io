@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var theme = ''
+    var theme = 'light'
     $("#swich_dark #swich_light").css('transition', '0.5s');
     change_status();
 
