@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ryantsui1109的主頁</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./scripts/default.js"></script>
+    <script src="./scripts/swich_color.js"></script>
+    <link rel="stylesheet" href="default.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="top_link">
+            <h4 id="top_link_title">快速連結</h4>
+            <ul id="top_link_links">
+                <li>
+                    （暫無）
+                </li>
+
+            </ul>
+
+
+        </div>
+
+        <div id="main_text">
+            <h1 id="title" class="clickable">ryantsui1109的主頁</h1>
+            <h3 id="subtitle">還沒想好放什麽，就先這樣吧~</h3>
+        </div>
+        <h5 id="theme_swicher">
+            <span id="color_dark">深</span> &nbsp/
+            <span id="color_light">淺</span>&nbsp/
+            <span id="color_default">預設</span></h5>
+    </div>
+
+
+
+</body>
+
+<style>
+    body {
+        transition: 0.5s;
+        background-color: var(--background-color);
+    }
+    
+    #top_link_title {
+        transition: 0.5s;
+        color: var(--text-color);
+        font-size: 1.5rem;
+        opacity: 0.8;
+    }
+    
+    #title {
+        font-family: Ubuntu-Light;
+        font-size: 4.5rem;
+        opacity: 0.9;
+    }
+    
+    #subtitle {
+        font-size: 2.5rem;
+        opacity: 0.8;
+    }
+    
+    li {
+        transition: 0.5s;
+        color: var(--text-color);
+        font-family: Ubuntu;
+    }
+    
+    #main_text {
+        top: 50%;
+        left: 50%;
+        position: fixed;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    #top_link {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #top_link_links li {
+        transition: 0.5s;
+        display: inline;
+        list-style-type: none;
+        font-size: 1.8rem;
+        color: var(--text-color);
+        opacity: 0.9;
+    }
+    
+    #theme_swicher {
+        margin-right: 8px;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+    }
+</style>
+
+</html>
